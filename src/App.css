@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Evolventa;
+  src: url("../src/assets/fonts/Evolventa.ttf");
+}
+@font-face {
+  font-family: Raleway;
+  src: url("./assets/fonts/Raleway-Regular.ttf");
+}
+
+@theme {
+  --font-evolventa: Evolventa, "sans-serif";
+
+  --font-raleway: Raleway, "sans-serif";
+}
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, lofi;
+}
